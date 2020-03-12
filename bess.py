@@ -2,8 +2,10 @@ import random
 
 playerPosition = 0
 menuinput=input("1 = start, 2 = exit: ")
-print("Win when you Roll 2 6's")
+
+
 if menuinput == '1':
+    print("Win when you Roll 2 6's in a row")
     win = False
     while win == False:
         playerRoll = random.randint(1,6)
@@ -13,5 +15,5 @@ if menuinput == '1':
             if diceroll == 6:
                 win = True
                 print("You won the game")
-                
-                    
+print("If you hit exit you are a bigger bitch than Denton")   
+                   
